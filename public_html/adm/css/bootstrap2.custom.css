@@ -1,0 +1,1040 @@
+@media
+	  only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+
+	#example2.qa_config input{
+
+	width : 100%;
+
+
+	}
+
+
+	#example2.qa_config select{
+
+	width : 100%;
+
+
+	}
+
+	#example2.board_form input{
+
+	width : 100% !important;
+	}
+
+
+	#example2.configform input{
+
+	width : 100%;
+
+
+	}
+
+	#example2.config_form input{
+
+	width : 100%;
+	
+
+	}
+
+	table.configform input{
+
+	width : 100%;
+
+
+	}
+
+	
+	select.form-control{
+	display : inline-block; 
+	width : auto !important;
+
+	}
+	select#cf_company_open1.form-control{
+	width : auto !important;
+
+	}
+
+		/* Force table to not be like tables anymore */
+		 table, thead, tbody, th, td, tr {
+			display: block;
+		} 
+
+		
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+      
+    t {
+      background: #ccc;
+    }
+    
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+			text-align : center;
+		}
+
+
+		
+
+		td > select.form-control, input.text_input{
+
+			width : 100%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+		
+		th{
+		background-color : #d2d6de !important;
+		}
+		
+
+		#example2 td{
+
+			text-align : center !important;
+
+		}
+
+
+		#example2 td > .addr_td{
+
+			text-align : left !important;
+
+		}
+
+		#example2 td > div #mb_zip{
+
+			width : 50%;
+		}
+
+		#example2 td > div #mb_addr1, #example2 td > div #mb_addr2, #example2 td > div #mb_addr3{
+
+			width : 80%;
+		}
+
+
+
+		
+
+
+	}
+
+
+
+/* 
+	#example2 th {
+    text-align: center;
+	background-color:#f4f4f4;
+	
+
+	}
+
+	#example2 th,td {
+    border-top: 1px solid #e6e6e6 !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+	
+
+	}
+ */
+
+		
+
+	textarea {
+	width : 100%;
+	height: 150px;
+
+	}
+
+
+
+.content-wrapper{
+
+
+
+}
+
+.btn.btn-primary {
+
+padding : 6px 12px;
+
+}
+
+
+
+.btn.btn-primary.btn-submit
+
+
+input#mb_zip{
+
+width : 10%;
+display : inline-block;
+margin : 2.5px;
+
+}
+
+#mb_addr1.form-control, #mb_addr2.form-control, #mb_addr3.form-control{
+display : inline-block;
+width : 35%;
+margin : 2.5px;
+}
+
+
+
+.btn, .btn-primary{
+
+display : inline-block;
+
+
+}
+
+
+
+td.mb_icon_td > div, td.mb_img_td > div{
+
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+color: #5b747e;
+text-align: left;
+}
+
+
+input.surplus{
+
+
+width: 100%;
+
+}
+
+
+
+.empty_table {
+    padding: 100px 0 !important;
+    padding-top: 100px !important;
+    padding-right: 0px !important;
+    padding-bottom: 100px !important;
+    padding-left: 0px !important;
+    text-align: center;
+}
+
+
+#point_mng,#money_mng {
+    margin-top: 50px;
+}
+
+
+
+#example1.visit_search th{
+
+	background-color: #f4f4f4 !important;
+	
+	}
+
+#example1 th, td {
+    border-top: 1px solid #e6e6e6 !important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+    border-top-color: rgb(230, 230, 230) !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: rgb(230, 230, 230) !important;
+}
+
+
+#sch_sort.form-control{ 
+	width : 5%;
+	display : inline !important;
+
+
+}
+
+
+
+#sch_word.form-control{ 
+	width : 15%;
+	display : inline !important;
+	
+}
+
+
+
+.local_sch.local_sch01{
+	display : inline !important;
+}
+
+
+.local_sch.local_sch01 a,label{
+	display : inline !important;
+}
+
+
+
+
+div#example1_length.dataTables_length{
+
+
+text-align:right !important;
+
+}
+
+
+
+.qa_config select.form-control,.qa_config input.form-control{
+
+width : 15%;
+}
+
+
+
+
+table.level_list > tbody > tr > td:nth-child(5) > input{
+
+width: 35%;
+display : inline;
+}
+
+table.level_list > tbody > tr > td:nth-child(6) > input{
+
+width: 40%;
+display : inline;
+}
+
+table.level_list > tbody > tr > td:nth-child(7) > input{
+
+width: 25%;
+display : inline;
+}
+
+table.level_list > tbody > tr > td:nth-child(8) > input{
+
+width: 30%;
+display : inline;
+}
+
+
+#po_subject{
+
+width: 50%;
+}
+.poll-form .form-control{
+
+width : 15%;
+display : inline;
+}
+
+#po_cnt1, #po_cnt2, #po_cnt3, #po_cnt4, #po_cnt5, #po_cnt6, #po_cnt7, #po_cnt8, #po_cnt9{
+
+
+width : 5%;
+
+
+}
+
+#po_level.form-control{
+
+width: 5%;
+}
+
+
+
+nav input.btn{
+
+
+/* margin : 10px; */
+}
+
+
+.boardgroup_form .form-control{
+
+width : 15%;
+
+}
+
+
+#gr_subject.form-control{
+
+width : 55%;
+}
+
+
+#gr_device{
+
+
+}
+
+
+#fm_order.form-control{
+
+width:8%;
+}
+
+
+
+#fm_subject.form-control{
+
+width:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+달력 */
+
+
+.pk_order .local_sch {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin-top: -1px;
+}
+
+
+
+
+
+
+
+element.style {
+    position: absolute;
+    top: 272.063px;
+    left: 414.313px;
+    z-index: 1;
+    display: block;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #d3d3d3;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+.ui-widget-content {
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #222;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+}
+* {
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+element.style {
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+.ui-widget-header {
+    border: 1px solid #aaa;
+    background: #ccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+    color: #222;
+    font-weight: bold;
+}
+* {
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.ui-widget-content {
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #222;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+element.style {
+}
+.ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+table {
+    clear: both;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    border-collapse: collapse;
+}
+* {
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.ui-widget-content {
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #222;
+}
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html, body {
+    font-family: 'Consolas','Gulimche',monospace;
+    font-size: 12px;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/*  적용
+
+
+
+
+
+.nav-tabs-custom.configform{
+
+
+margin-bottom:0px;
+}
+
+
+
+
+nav.configform{
+
+margin-bottom:0px;
+padding:0px;
+min-height : 50px;
+background-color:white;
+
+
+
+
+}
+
+
+section.configform{
+
+
+padding : 0px;
+
+}
+
+
+
+
+div.box{
+
+
+border-top: 0px;
+
+
+}
+
+
+.nav-tabs-custom.configform{
+
+
+margin-bottom:0px;
+}
+
+
+.navbtn {
+    padding: 5px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+.nav-tabs-custom>.nav-tabs {
+    margin: 0;
+    border : 0px;
+}
+
+
+
+
+
+ul.configform{
+
+	border : none;
+}
+
+
+
+div.nav-tabs-custom.configform {
+    margin-bottom: 0px;
+    background: #fff;
+    box-shadow: none !important;
+    border-radius: 3px;
+}
+
+nav.navbar-default.configform{
+
+
+
+border-color: #fff;
+}
+
+
+
+
+input.btn_submit.config_form{
+
+
+margin: 0px;
+
+}
+
+
+li.pull-right.config_form{
+
+
+border : 0px;
+margin-right : 5px;
+margin-top : -7px;
+
+
+}
+
+
+
+.navbar{
+
+
+background-color:#ffffff;
+}
+ */
+
+
+#example2.board_form .form-control{
+
+width : auto;
+
+}
+
+
+div.box-header{
+
+padding : 0px;
+}
+
+
+.configform input.form-control{
+
+width : auto;
+}
+
+
+.form-control{
+width : auto;
+display : inline-block !important;
+}
+
+select.form-control{
+width : auto;
+}
+
+
+
+
+table#example2{
+
+width : 100%;
+}
+
+.navbar{
+
+margin-bottom : 0px;
+}
+
+#sl_layer.entry .piece p {
+    display: inline-block;
+    width: 240px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.compare_wrap {
+    margin: 0 0 10px;
+    zoom: 1;
+}
+
+.compare_wrap section {
+    margin: 0 0 10px;
+}
+
+.compare_left {
+    float: left;
+    width: 49%;
+}
+
+.compare_right {
+    float: right;
+    width: 49%;
+}
+
+.srel .srel_pad {
+    display: block;
+    margin: 0 0 10px;
+}
+.srel .srel_list, .srel .srel_sel {
+    height: auto !important;
+    height: 200px;
+    max-height: 200px;
+    border: 1px solid #ced9de;
+    background: #f6f6f6;
+    overflow-y: scroll;
+}
+
+.srel .srel_pad {
+    display: block;
+    margin: 0 0 10px;
+}
+
+
+
+.srel .srel_list, .srel .srel_sel {
+    height: auto !important;
+    height: 200px;
+    max-height: 200px;
+    border: 1px solid #ced9de;
+    background: #f6f6f6;
+    overflow-y: scroll;
+}
+.srel .srel_sel {
+    border: 1px solid #ced9de;
+    background: #fcfff2;
+}
+
+.srel .srel_list p, .srel .srel_sel p {
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    text-align: center;
+}

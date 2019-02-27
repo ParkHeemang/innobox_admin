@@ -1,0 +1,35 @@
+.n_gallery_wrap {clear:both; height:auto;position:relative;overflow:hidden;margin-bottom:46px; margin-top:20px; padding:0px 10px; }
+
+
+.n_title a {float:left; text-decoration:none; padding-left:8px;  font-size:15px;font-weight:bold;color:#222; line-height:27px}
+.n_title a:hover {font-size:15px;font-weight:bold;color:#fda850;}
+.n_title img {margin-right: 10px;margin-left: 10px;}
+
+.n_icon {float:left; margin-left:5px; height:19px}
+.n_right_wrap {float:right; padding-top:5px; padding-right:20px}
+ul.n_thumb { list-style:none; font-size:0; }
+ul.n_thumb:after { clear:both; display:block; content:"";}
+ul.n_thumb li {float:left; margin-right:1.3%;  margin-bottom:10px; text-align:left; max-width:288px; width:32%;  }
+ul.n_thumb li:last-child { margin-right:0px;}
+
+ul.n_thumb li a { display:block;}
+ul.n_thumb li p {padding:4px 0 0 0;}
+ul.n_thumb li p a:link, ul.n_thumb li p a:visited, ul.n_thumb li p a:active, ul.n_thumb li p a:hover {text-decoration:none;  }
+ul.n_thumb li img {height:auto; width:100%;}
+.n_no_list {padding:10px 0; font:normal 11px gulim, dotum; color:#777; text-align:center}
+.gall_text_href { margin:10px 0 !important;}
+.gall_text_href a { font-size:14px; font-family:'Noto Sans KR' , '돋움', sans-serif; font-weight:bold;}
+.grid-3 { margin-right:0px !important;}
+.sut_title { font-size:11px; color:#666; font-family:'Noto Sans KR' , '돋움', sans-serif;}
+.price { font-size:11px; font-weight:bold; font-family:'Noto Sans KR' , '돋움', sans-serif;}
+.price span { color:#999;  display:block; }
+
+
+/* 모바일*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+ul.n_thumb li { margin-right:1.3%;}
+
+}
+
